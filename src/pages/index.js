@@ -71,7 +71,8 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
+    <div className={styles.textCenter} >
+      
       <StaticImage
         src="../images/portfolio-picture.jpg"
         loading="eager"
@@ -85,7 +86,10 @@ const IndexPage = () => (
         Welcome to <b>Ethan's First Gatsby Site!</b>
       </h1>
       <p className={styles.intro}>
-        <b>A project sponsored by Block + Tackle</b>{" "}
+        <b>
+          A project sponsored by <a href={'https://www.block-tackle.com/'}>Block + Tackle
+          </a>
+        </b>{" "}
         
       </p>
     </div>
